@@ -1,0 +1,50 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+/* base style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.products-heading{
+    margin-top: 87px;
+    margin-left: 120px;
+    margin-bottom:146px;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+.container{
+    display: flex;
+}
+/* top section style */
+.influencer{
+    width: 582px;
+    height: 269px;
+    margin-left: 113px;
+}
+h1{
+    width: 582px;
+    color: #3A3A3A;
+    font-size:52px;
+}
+p{
+    font-size: 16px;
+    color: #3A3A3A;
+}
+button{
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    background: #E02C6D;
+}
+.button-name{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.fa-arrow-right{
+    margin-left:10px;
+}
+.camera{
+    width: 440px;
+    height: 414px;
+    /* border-radius: 120px;
+    background-color: #F3F1FF; */
+}
