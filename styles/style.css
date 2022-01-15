@@ -47,13 +47,12 @@ button{
     height: 414px;
 
 }
+.see-mor{
+    color:#E02C6D;
+    text-align: right;
+    margin-top: 50px;
+}
  /* poplur collection style */
-    /* .collection{
-        display:grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-gap:1em; */
-
-    }
  .collection-title{
     width: 262px;
     height: 70px;
@@ -62,42 +61,55 @@ button{
     margin-left:450px;
     color: #3A3A3A;
  }
-.containers{
+ .courses{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap:30px ;
+   
+ }
+ .course{
     width: 329px;
     height: 476px;
-    
-    border-radius: 5px;
+    margin-left: 14px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-}
-.picture{
+    border-radius: 5px;
+ }
+.courses .course img{
     width: 300px;
     height: 256px;
     margin-top:17px;
-    margin-left: 15px;
-    border-radius: 5px;
-}
-.collection-author{
-    font-weight: 500;
-    font-size: 28px;
-    margin-left:14px;
-    color: #18191F;
-}
-.prise{
-    font-size: 24px;
-    margin-left:14px;
-    color: rgba(0, 0, 0, 0.87);
-}
-.rating{
     margin-left: 14px;
 }
-.fa-star{
-    font-size:16px;
+.course-title{
+    margin-left: 14px;
+}
+.price{
+    font-size: 24px;
+    margin-left: 14px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.course-info{
+    margin-left: 14px;
 }
 .fa-star.fild{
-    color:#FFC014;  
+    color:#FFC014;
 }
-.discription{
+.fa-star-half-alt{
+    color:#FFC014;
+}
+.course-duration{
     font-size: 14px;
+    height: 61px;
+    margin-left: 14px;
     color: #787885;
+}
+/* footer part */
+footer{
+    text-align: center;
+    background: rgba(74, 74, 211, 0.597);
+}
+.footer-heading{
+    font-size: 24px;
+    color: #FFFFFF;
 }
